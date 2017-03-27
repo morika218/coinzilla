@@ -1,0 +1,153 @@
+* {
+   font-family: 'Ubuntu', sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 20px;
+}
+
+
+.site-footer {
+    background: #182740;
+    color: #fff;
+}
+
+.site-footer a {
+    color: #fff;
+}
+
+input[type="text"].my-input {
+    background: #fff;
+    padding: 0 5px;
+    border-bottom: none;
+    color: #222;
+    box-sizing: border-box;
+}
+input[type="text"].my-input:focus {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+.go {
+    background: orange;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    padding: 6px;
+}
+
+div.input {
+    position: relative;
+}
+.my-ads {
+    min-height: 190px;
+    background: #0D3F96;
+}
+.zilla {
+    height: 190px;
+    background: url(../images/coinzilla-join-us.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.footer-ablock {
+
+}
+
+.main-art h2 {
+    margin-bottom: 5px;
+}
+
+.main-art p {
+    margin: 3px 0;
+}
+.main {
+    margin-top: 40px;
+}
+.main h1 {
+    font-size: 30px;
+}
+.utp {
+    background-color: #182740;
+    padding: 40px 0;
+}
+.hello-zilla {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../images/coinzilla-hello.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+}
+.hello-zilla h2 {
+    font-size: 40px;
+}
+.hello-zilla button {
+    background: #F7931A;
+    border: none;
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
+
+.my-utp {
+    padding: 30px 0;
+    font-size: 40px;
+    color: lightgrey;
+}
+.my-utp:hover {
+    content: "";
+    color: whitesmoke;
+}
+
+.blue1 {
+    background: #0D3F96;
+}
+
+.mb100{
+    margin-bottom:-100px;
+}
+
+
+header {
+    background-color: #182740;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.logo {
+    width: 115px;
+    margin-top: 10px;
+}
+
+.main-nav li {
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+
+}
+.main-nav {
+    margin: 0;
+}
+span {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 20px;
+}
+.header-right button {
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #F7931A;
+    background: #182740;
+    padding: 10px 15px;
+}
+.header-left ul {
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .hello-zilla {
+        background-image: none;
+    }
+}
